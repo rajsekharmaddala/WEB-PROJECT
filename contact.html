@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" width="device-width", initial-scale=1">
+ <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    
+    <title>Hotel Grand Minarava| Services</title>
+     <link rel="stylesheet" href="./css/style.css">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid ;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #fff;
+}
+
+.container #form{
+    color:#ffffff;
+    border-radius: 3px;
+    background-color:#35424a;
+    padding: 20px;
+    width:50%;
+    
+}
+#form{
+    float:left;
+    
+}
+#newsletter h3{
+ text-align:center;
+ color:#35424a;
+ font-weight:200px;
+}
+#newsletter img{
+  float:right;
+  width:40%;
+  border-radius:300px;
+  margin-top:30px;
+}
+</style>
+</head>
+<body>
+ <header>
+  <script>
+      function pop(){
+        alert("Thank You For Subscribe Our Site")
+      }
+      function pop2(){
+       alert("Your Contact Has Been Registered\n-Thank You")
+      }
+    </script>
+      <div class="container">
+        <div id="branding">
+          <h1>HOTEL <span class="highlight">G</span>RAND <span class="highlight">M</span>INARAVA</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li class="current"><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="up">
+        <div class="container">
+            <h5>subscribe to our site to get updates on offers...</h5>
+            <form >
+              <input type="email" placeholder="Enter email-id">
+              <button  type="submit" class="button_1" onclick="pop()">Subscribe</button>
+            </form>      
+      </div>
+    </section>
+
+
+<section id="newsletter">
+ <h3>Contact Form</h3>
+<div class="container">
+ <div id="form">
+  <form>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Enter Name...">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Enter Last Name...">
+
+   <label>Mobile Number</label>
+  <span><input name="userPhone" type="text" class="textbox"  placeholder="Enter Mobile Number ..."></span>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write Something..." style="height:200px"></textarea>
+
+  
+    <center><button  type="submit" class="button_1" onclick="pop2()">Submit</button></center>
+
+  </form>
+  
+  </div>
+  <img src="img\feed.jpg" height=450px width=500px>
+</div>
+</section>
+
+    <footer>
+      <center>
+      <p>The Grand Minarva Hotels, copyright &copy; 2018.</p>
+      </center>
+    </footer>
+</body>
+</html>
